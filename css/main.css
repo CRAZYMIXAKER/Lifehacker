@@ -57,8 +57,6 @@ body a {
 
 body {
   background-color: var(--blue);
-  /*flex: 1; */
-  /* background: url('./img/bg.jpg') center center / 250px; */
   /*сглаживание шрифтов*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -183,19 +181,18 @@ body {
   width: 1280px;
 }
 
-.description {
+.main__body-description {
   width: 600px;
   height: 147px;
   font: 16px / 24px var(--fontABeeZee);
   color: var(--white);
-  margin-bottom: 48px;
 }
 
 .share {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 56px;
+  margin: 48px 0 56px 0;
 }
 
 .share__icon {
@@ -222,18 +219,28 @@ body {
   margin-right: 0;
 }
 
-.share__link {}
+.share__icon-item:hover {
+  color: var(--green);
+  background: var(--white);
+}
 
-.share__link-text {
+.share__link {
   font: 12px / 15px var(--fontManrope);
   color: var(--green);
   letter-spacing: 6px;
   text-transform: uppercase;
 }
 
-/* .articles__bg {
-  background: radial-gradient(50% 50% at 50% 50%, #52E5FF 0%, rgba(17, 23, 31, 0) 100%);
-} */
+
+.main__body-bg {
+  z-index: -1;
+  position: absolute;
+  width: 2140px;
+  height: 2140px;
+  left: -110px;
+  top: 666px;
+  background: radial-gradient(50% 50% at 50% 50%, #52E5FF 0%, var(--blue) 70%);
+}
 
 .articles {
   display: flex;
@@ -253,3 +260,28 @@ body {
 }
 
 .articles__body-item {}
+
+.main__body-buy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 331px;
+  height: 60px;
+  background: var(--green);
+  box-shadow: 0px 4px 36px rgba(98, 255, 161, 0.5);
+  border-radius: 56px;
+  margin: 56px 0 42px 0;
+  font: 16px / 24px var(--fontABeeZee);
+  color: var(--black);
+}
+
+.main__body-buy:hover {
+  color: var(--green);
+  background: var(--white);
+}
+
+.main__body-evo {
+  width: 1280px;
+  height: 562px;
+  background: url('../img/20CY1_Ginger_Masthead.png');
+}
