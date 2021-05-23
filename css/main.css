@@ -253,13 +253,53 @@ body {
 }
 
 .articles__body {
-  margin: 139px 104px 100px 104px;
+  display: flex;
+  flex-wrap: wrap;
   width: 976px;
   height: 1349px;
-  background: var(--white);
+  margin: 139px 104px 100px 104px;
+  /* background: var(--white); */
 }
 
-.articles__body-item {}
+.articles__body-item {
+  display: flex;
+  flex-direction: column;
+  width: 472px;
+  height: auto;
+  margin-right: 32px;
+}
+
+.articles__body-img {
+  width: 472px;
+  height: 236px;
+}
+
+.articles__body-topic {
+  font: 24px / 30px var(--fontABeeZee);
+  color: var(--white);
+  margin-top: 24px;
+}
+
+.articles__body-item:nth-child(2n) {
+  margin-right: 0;
+}
+
+/* 
+.articles__body-item:nth-child(1) {
+  flex-direction: row;
+  background: var(--white);
+  height: 325px;
+}
+
+.articles__body-item:nth-child(1) .articles__body-img {
+  width: 650px;
+  height: 325px;
+}
+
+.articles__body-item:nth-child(1) .articles__body-topic {
+  color: var(--black);
+  margin: 24px 16px 0 16px;
+} */
 
 .main__body-buy {
   display: flex;
@@ -285,3 +325,7 @@ body {
   height: 562px;
   background: url('../img/20CY1_Ginger_Masthead.png');
 }
+
+/* display: flex;
+flex-wrap: wrap;
+justify-content: flex-start; */
