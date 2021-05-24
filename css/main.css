@@ -109,6 +109,24 @@ body {
   background: url('../img/desktop.png');
 }
 
+.intel__evo {
+  position: absolute;
+  left: 268.44px;
+  top: 74.49px;
+  width: 179.9px;
+  height: 109.63px;
+  background: url('../img/intel_evo.png');
+}
+
+.intel__i7 {
+  position: absolute;
+  left: 620px;
+  top: 509.37px;
+  width: 130px;
+  height: 162px;
+  background: url('../img/evo-i7.png');
+}
+
 .hero__special {
   position: absolute;
   left: 1010px;
