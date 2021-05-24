@@ -187,9 +187,12 @@ body {
   position: absolute;
   left: 0;
   top: 510px;
-  width: 800px;
-  border: 1px solid var(--lightBlueTwo);
-  -webkit-animation: ease-in 2.5s surfacing-line;
+  width: 802px;
+  height: 1px;
+  background-color: var(--lightBlueTwo);
+  color: var(--lightBlue);
+  border: none;
+  -webkit-animation: ease-in 1.5s surfacing-line;
 }
 
 @-webkit-keyframes surfacing-line {
@@ -212,7 +215,7 @@ body {
   height: 9px;
   background-color: var(--lightBlueTwo);
   border-radius: 90px;
-  -webkit-animation: ease-in 2.5s surfacing-circle;
+  -webkit-animation: ease-in 1.5s surfacing-circle;
 }
 
 @-webkit-keyframes surfacing-circle {
@@ -230,7 +233,7 @@ body {
 .main__content {
   position: absolute;
   top: 180px;
-  -webkit-animation: ease-in 2.5s surfacing;
+  -webkit-animation: ease-in 1.5s surfacing;
 }
 
 @-webkit-keyframes surfacing {
@@ -286,11 +289,31 @@ body {
   width: 1280px;
 }
 
-.main__body-strela {
-  background: orange;
+.main__body-arrow {
+  /* position: relative; */
+  /* border: 1px solid var(--lightBlueTwo); */
   width: 37px;
   height: 39px;
   margin-bottom: 139px;
+  /* transform: rotate(-45deg); */
+}
+
+.arrow__img {
+  width: 37px;
+  height: 13px;
+
+  /* width: 802px;
+  height: 1px;
+  background-color: var(--lightBlueTwo);
+  color: var(--lightBlue);
+  border: none; */
+  /* position: absolute; */
+  /* left: 0;
+  top: 510px;
+  width: 800px;
+  border: 1px solid var(--lightBlueTwo); */
+  /* transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg); */
 }
 
 .main__body-description {
