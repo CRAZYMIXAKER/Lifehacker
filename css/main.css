@@ -118,6 +118,15 @@ body {
   background: url('../img/intel_evo.png');
 }
 
+.intel__shadow {
+  position: absolute;
+  left: 528px;
+  top: 649px;
+  width: 313px;
+  height: 58px;
+  background: radial-gradient(50% 50% at 50% 50%, #000000 0%, rgba(28, 45, 63, 0) 100%);
+}
+
 .intel__i7 {
   position: absolute;
   left: 620px;
