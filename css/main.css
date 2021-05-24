@@ -19,13 +19,12 @@
   font-style: normal;
 }
 
-/* 
 @font-face {
-  font-family: 'Alike Angular';
-  src: url('../fonts/AlikeAngular-Regular.ttf') format('truetype');
-  font-weight: normal;
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Black.ttf') format('truetype');
+  font-weight: 900;
   font-style: normal;
-} */
+}
 
 
 :root {
@@ -40,7 +39,7 @@
   --white: #ffffff;
   --fontManrope: 'Manrope', Arial, sans-serif;
   --fontABeeZee: 'ABeeZee', Arial, sans-serif;
-  /*--fontAlikeAngular: 'Alike Angular', Arial, sans-serif; */
+  --fontRoboto: 'Roboto', Arial, sans-serif;
 }
 
 html,
@@ -75,7 +74,7 @@ body {
   height: auto;
   min-height: 650px;
   position: relative;
-  margin: 0 0 89px 0;
+  /* margin: 0 0 89px 0; */
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -258,15 +257,12 @@ body {
   width: 976px;
   height: 1349px;
   margin: 139px 104px 100px 104px;
-  /* background: var(--white); */
 }
 
 .articles__body-item {
   display: flex;
   flex-direction: column;
   width: 472px;
-  height: auto;
-  margin-right: 32px;
 }
 
 .articles__body-img {
@@ -280,15 +276,16 @@ body {
   margin-top: 24px;
 }
 
-.articles__body-item:nth-child(2n) {
-  margin-right: 0;
+.articles__body-item:nth-child(2) {
+  margin-right: 32px;
 }
 
-/* 
 .articles__body-item:nth-child(1) {
   flex-direction: row;
   background: var(--white);
   height: 325px;
+  width: 976px;
+  margin-bottom: 56px;
 }
 
 .articles__body-item:nth-child(1) .articles__body-img {
@@ -299,7 +296,7 @@ body {
 .articles__body-item:nth-child(1) .articles__body-topic {
   color: var(--black);
   margin: 24px 16px 0 16px;
-} */
+}
 
 .main__body-buy {
   display: flex;
@@ -326,6 +323,34 @@ body {
   background: url('../img/20CY1_Ginger_Masthead.png');
 }
 
-/* display: flex;
-flex-wrap: wrap;
-justify-content: flex-start; */
+.footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  /* align-items: flex-start; */
+  justify-content: space-between;
+  width: 1500px;
+  height: 68px;
+}
+
+.footer__text {
+  width: 575px;
+  height: 47px;
+  font: 16px / 24px var(--fontRoboto);
+  color: var(--gray);
+  text-decoration-line: underline;
+}
+
+.footer__coprights {
+  display: flex;
+  font: 16px / 24px var(--fontABeeZee);
+}
+
+.footer__coprights-link {
+  text-decoration-line: underline;
+  color: var(--green);
+}
+
+.footer__coprights-text {
+  color: var(--white);
+}
