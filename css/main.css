@@ -31,6 +31,7 @@
   --black: #000000;
   --lightblack: #232323;
   --gray: #6F6F6F;
+  --lightGray: #EAECE7;
   --blue: #1c2a3b;
   --lightBlue: #4AC3F1;
   --lightBlueTwo: #23B1E8;
@@ -109,6 +110,79 @@ body {
   height: 910.74px;
   background: url('../img/desktop.png');
 }
+
+.intel__loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 119.46px;
+  left: 680.25px;
+  width: 133.73px;
+  height: 49.52px;
+  background-color: var(--lightGray);
+  border: 0.5px solid var(--white);
+}
+
+.intel__loading-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 131.9px;
+  height: 47.79px;
+  background-color: var(--lightGray);
+  border: 0.5px solid var(--white);
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 131px;
+  height: 8.52px;
+  background: cornflowerblue;
+}
+
+.button__bg {
+  width: 7.1px;
+  height: 6.18px;
+  background: #2C3746;
+}
+
+.button__bg-white {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 6.39px;
+  height: 5.5px;
+  background: var(--white);
+}
+
+.button__bg-gray {
+  position: relative;
+  width: 5.84px;
+  height: 4.87px;
+  background-color: #6D7C74;
+  /* background: url('../img/icon.png'); */
+}
+
+.button__bg-img {
+  position: absolute;
+  left: 1.29px;
+  top: 0.52px;
+  width: 3.25px;
+  height: 3.25px;
+  /* font-size: 4px; */
+}
+
+.loading {
+  width: 131px;
+  height: 39.27px;
+  background: coral;
+}
+
+.loading-black {}
+
 
 .intel__evo {
   position: absolute;
@@ -290,30 +364,9 @@ body {
 }
 
 .main__body-arrow {
-  /* position: relative; */
-  /* border: 1px solid var(--lightBlueTwo); */
   width: 37px;
   height: 39px;
   margin-bottom: 139px;
-  /* transform: rotate(-45deg); */
-}
-
-.arrow__img {
-  width: 37px;
-  height: 13px;
-
-  /* width: 802px;
-  height: 1px;
-  background-color: var(--lightBlueTwo);
-  color: var(--lightBlue);
-  border: none; */
-  /* position: absolute; */
-  /* left: 0;
-  top: 510px;
-  width: 800px;
-  border: 1px solid var(--lightBlueTwo); */
-  /* transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg); */
 }
 
 .main__body-description {
