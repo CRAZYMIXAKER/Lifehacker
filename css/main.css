@@ -592,26 +592,45 @@ body {
   }
 }
 
-.pulse--top-right {
+.pulse--top-left {
   top: 2379px;
   left: 306px;
   width: 30px;
   height: 30px;
 }
 
-.pulse--down-right {
+.pulse--down-left {
   top: 2650px;
   left: 298px;
   width: 14px;
   height: 14px;
+}
 
+.pulse--top-right {
+  top: 2535px;
+  left: 1495.39px;
+  width: 30px;
+  height: 30px;
+}
+
+.pulse--right {
+  top: 2605px;
+  left: 1674.39px;
+  width: 22px;
+  height: 22px;
+}
+
+.pulse--down-right {
+  top: 2796px;
+  left: 1612.39px;
+  width: 14px;
+  height: 14px;
 }
 
 .footer {
   position: absolute;
   bottom: 0;
   display: flex;
-  /* align-items: flex-start; */
   justify-content: space-between;
   width: 1500px;
   height: 68px;
