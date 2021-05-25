@@ -93,11 +93,24 @@ body {
 }
 
 .header__logo {
+  width: 117px;
+  height: 21px;
   margin-left: 212px;
+  background: url('../img/logo.PNG');
 }
 
 .header__intel {
+  position: relative;
+  width: 66.82px;
+  height: 24.84px;
   margin-right: 217.42px;
+  background: url('../img/intel.png');
+}
+
+.header__intel-dot {
+  width: 4.84px;
+  height: 4.63px;
+  background: #0068B5;
 }
 
 .intel {
