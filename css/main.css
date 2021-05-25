@@ -395,8 +395,6 @@ body {
   height: 70px;
   font: 18px / 24px var(--fontABeeZee);
   color: var(--white);
-  margin-bottom: 135px;
-  /*302px*/
 }
 
 .main__body {
@@ -409,7 +407,7 @@ body {
 .main__body-arrow {
   width: 37px;
   height: 39px;
-  margin-bottom: 139px;
+  margin-bottom: 133px;
 }
 
 .main__body-description {
@@ -472,9 +470,7 @@ body {
   left: -110px;
   top: 666px;
   border-radius: 1111px;
-  /*rgb 28 - 42 - 59*/
-  background: radial-gradient(50% 50% at 50% 50%, #52E5FF 0%, rgba(17, 23, 31, 1) 100%);
-  /* background: radial-gradient(50% 50% at 50% 50%, #52E5FF 0%, var(--blue) 70%); */
+  background: radial-gradient(50% 50% at 50% 50%, #52E5FF 0%, rgba(17, 23, 31, 0) 80%);
 }
 
 .articles {
@@ -559,32 +555,9 @@ body {
   background: url('../img/20CY1_Ginger_Masthead.png');
 }
 
-
-/* .pulse {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 150px;
-  height: 150px;
-  color: gray;
-  background: white;
-  border-radius: 50%;
-  animation: radial-pulse 1s infinite;
-}
-
-@keyframes radial-pulse {
-  0% {
-    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.5);
-  }
-
-  100% {
-    box-shadow: 0 0 0 40px rgba(0, 0, 0, 0);
-  }
-} */
-
 .vector {
   position: absolute;
-  top: 2238px;
+  top: 2233px;
   left: -15px;
   width: 445.23px;
   height: 618px;
@@ -600,11 +573,10 @@ body {
 
 .pulse {
   position: absolute;
-  top: 2492px;
-  left: 411px;
+  top: 2498px;
+  left: 396px;
   width: 22px;
   height: 22px;
-  color: gray;
   background: radial-gradient(50% 50% at 50% 50%, #52E5FF 0%, rgba(17, 23, 31, 0) 100%);
   border-radius: 50%;
   animation: radial-pulse 1s infinite;
@@ -612,41 +584,57 @@ body {
 
 @keyframes radial-pulse {
   0% {
-    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0 0px rgba(82, 229, 255, 0.1);
   }
 
   100% {
     box-shadow: 0 0 0 40px rgba(0, 0, 0, 0);
   }
+}
 
-  .footer {
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    /* align-items: flex-start; */
-    justify-content: space-between;
-    width: 1500px;
-    height: 68px;
-  }
+.pulse--top-right {
+  top: 2379px;
+  left: 306px;
+  width: 30px;
+  height: 30px;
+}
 
-  .footer__text {
-    width: 575px;
-    height: 47px;
-    font: 16px / 24px var(--fontRoboto);
-    color: var(--gray);
-    text-decoration-line: underline;
-  }
+.pulse--down-right {
+  top: 2650px;
+  left: 298px;
+  width: 14px;
+  height: 14px;
 
-  .footer__coprights {
-    display: flex;
-    font: 16px / 24px var(--fontABeeZee);
-  }
+}
 
-  .footer__coprights-link {
-    text-decoration-line: underline;
-    color: var(--green);
-  }
+.footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  /* align-items: flex-start; */
+  justify-content: space-between;
+  width: 1500px;
+  height: 68px;
+}
 
-  .footer__coprights-text {
-    color: var(--white);
-  }
+.footer__text {
+  width: 575px;
+  height: 47px;
+  font: 16px / 24px var(--fontRoboto);
+  color: var(--gray);
+  text-decoration-line: underline;
+}
+
+.footer__coprights {
+  display: flex;
+  font: 16px / 24px var(--fontABeeZee);
+}
+
+.footer__coprights-link {
+  text-decoration-line: underline;
+  color: var(--green);
+}
+
+.footer__coprights-text {
+  color: var(--white);
+}
