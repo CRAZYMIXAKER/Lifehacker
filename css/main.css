@@ -88,7 +88,6 @@ body {
   align-items: center;
   padding: 0;
   margin: 0 0 714px 0;
-  /*120px*/
   justify-content: space-between;
   background-color: var(--white)
 }
@@ -190,7 +189,7 @@ body {
   border: 0.5px solid #2C3746;
 }
 
-.loading-main:nth-child(23) {
+.loading-main-item:nth-child(23) {
   margin-right: 0;
 }
 
@@ -199,6 +198,21 @@ body {
   height: 9.38px;
   margin-right: 1.1px;
   background: var(--lightBlueTwo);
+}
+
+.loading-main-hide {
+  position: absolute;
+  right: 0.79px;
+  width: 122.41px;
+  height: 9.38px;
+  background: var(--lightGray);
+  -webkit-animation: linear 15s show-loading infinite;
+}
+
+@keyframes show-loading {
+  100% {
+    width: 0;
+  }
 }
 
 .intel__evo {
